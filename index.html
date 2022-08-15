@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julia Sandoval</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/nav-bar.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/mobile.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="stylesheet" href="/css/experiences.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <script src="https://kit.fontawesome.com/54db4656e8.js" crossorigin="anonymous"></script>
+    <script defer src="/js/index.js"></script>
+</head>
+
+<body>
+    <header class="topheader">
+        <nav class="topnav">
+            <a href="#" class="logo">
+                <img height="50" width="50" src="/img/IMG-4473.PNG" alt="programadora">
+                <div>Julia Sandoval</div>
+            </a>
+            <button class="open-menu" aria-label="Abrir menú">
+                <i class="fas fa-bars fa-3x"></i>
+            </button>
+            <ul class="menu">
+                <button class="close-menu" aria-label="Cerrar menú">
+                    <i class="fas fa-times fa-3x"></i>
+                </button>
+                <li><a href="#profile" class="selected">Perfil</a></li>
+                <li><a href="#experiences">Experiencia</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="horizontal-padding vertical-padding">
+        <section class="profile" id="profile">
+            <div class="profile-info">
+                <h1 class="profile-title">Hola, mi nombre es <br> Julia Sandoval</h1>
+                <p class="profile-details">
+                    Soy Oficial del Ejército del Arma de Ingenieros, actualmente ocupo la jerarquía de Teniente 2º, en
+                    condiciones de ascender a la jerarquía de Teniente 1°. Dentro del Ejército me especialicé en el área
+                    de
+                    Protección QBRN (Químico, Biológico, Radiológico-Nuclear) para lo cual realicé varios cursos en el
+                    exterior, tanto presenciales como virtuales y repliqué estos conocimientos participando como
+                    instructora
+                    en los distintos cursos realizados a nivel nacional. <br>
+                    En mi tiempo libre me gusta realizar distintos tipos de manualidades,
+                    y disfruto mucho de la música. <br>
+                    Reciente madre de una hermosa niña llamada Helena.
+                </p>
+                <button class="profile-btn">
+                    <a href="/pdf/CV Sandoval.pdf" target="_blank" class="profile-btn">Descargar CV</a>
+                </button>
+            </div>
+            <div class="profile-img-section">
+                <img class="profile-img" src="/img/profile-img.jpeg" alt="madre e hija">
+            </div>
+        </section>
+    </div>
+    <section class="experiences" id="experiences">
+        <img src="/img/wave.svg">
+        <div class="experiences-body">
+            <h2 class="experiences-title">Experiencia</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2022</div>
+                    <div class="experience-batallion">Escuela de Ingenieros del Ejército</div>
+                    <div class="experience-position">Integrante del Proyecto de Elaboración de un Simulador de Tractor
+                        Pala Con Retroexcavadora</div>
+                    <!--<div class="experience-description"></div>-->
+                    <div class="experience-batallion">Bn. "Ansina" de Ing. Cbte. N°6</div>
+                    <div class="experience-position">Referente en Ciberseguridad</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2019-2022</div>
+                    <div class="experience-batallion">Bn. "Ansina" de Ing. Cbte. N°6</div>
+                    <div class="experience-position">Jefe de Sección de Protección QBRN</div>
+                    <div class="experience-batallion">Escuela de Ingenieros del Ejército</div>
+                    <div class="experience-position">Oficial Instructor</div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experience-date">2019</div>
+                    <div class="experience-batallion">Bn. "Ansina" de Ing. Cbte. N°6</div>
+                    <div class="experience-position">Oficial de Comunicaciones e Informática</div>
+                </div>
+                <div class="experience experience_left">
+                    <div class="experience-date">2018</div>
+                    <div class="experience-batallion">Bn. "Charrúa" de Ing.Cbte. N°3</div>
+                    <div class="experience-position">Jefe de Sección de Ingenieros</div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <img src="/img/wave.svg" class="wave-bottom">
+    </section>
+    <div class="horizontal-padding vertical-padding">
+        <section class="skills" id="skills">
+            <h2 class="skills-title">Habilidades</h2>
+            <ul class="skills-list">
+                <li class="skills-skill">HTML</li>
+                <li class="skills-skill">CSS</li>
+                <li class="skills-skill">JavaScript</li>
+                <li class="skills-skill">C#</li>
+                <li class="skills-skill">Java</li>
+            </ul>
+        </section>
+    </div>
+    <section class="contact vertical-padding" id="contact">
+        <form action="https://formspree.io/f/xbjbjzqy" method="POST" class="form">
+            <div class="contact-container">
+                <h2 class="contact-title">Contacto</h2>
+                <input type="text" class="form-input" placeholder="Nombre" name="name">
+                <input type="email" name="email" class="form-input" placeholder="Correo electrónico">
+                <textarea class="form-input form-input--message" name="message" placeholder="Mensaje"></textarea>
+                <input type="submit" value="Enviar" class="form-cta">
+            </div>
+        </form>
+
+
+    </section>
+</body>
+
+</html>
